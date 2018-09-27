@@ -41,7 +41,7 @@
 	background:black;
 	background-image: linear-gradient(top, #e1ddd9, #e9e5e2);  
 	height:20px; 
-	border-radius:10px;  
+	 
 	box-shadow: 0 1px 0px black, 0 1px 0 #fcfcfc;	  
 }
 
@@ -54,33 +54,40 @@
 	height:18px; 
 	margin:1px 2px;  
 	position:absolute;
-	border-radius:10px;
 	box-shadow: 0 1px 0px #fcfcfc inset, 0 1px 0 #bebbb9;		
 }
 
-.range {
-	width:100%; 
-	animation: range 2s ease-out;
+.html {
+	width:88%; 
+	animation: html 2s ease-out;
 	background-color: #f674a4;
 	background-image: linear-gradient(top, #f674a4, #e06995);
 }
 
-.attack {
-	width:90%;
-	animation: attack 2s ease-out;
+.css {
+	width:85%;
+	animation: css 2s ease-out;
 	background-color: lime;
 	background-image: linear-gradient(top, #f0bb4b, #d9aa44);
 }
 
-.fire_rate {
+.javascript {
 	width:65%;
-	animation: fire-rate 2s ease-out;
+	animation: javascript 2s ease-out;
 	background-color: indigo;
 	background-image: linear-gradient(top, #a1ce5b, #91ba52);
 }
 
+.java {
+	width:60%; 
+	animation: java 2s ease-out;
+	background-color: #f674a4;
+	background-image: linear-gradient(top, #f674a4, #e06995);
+}
 
-@keyframes range { 
+
+
+@keyframes html { 
     0% { 
         width:0px;
     } 
@@ -89,14 +96,23 @@
         width:100%;
     }  
 }
-@keyframes attack{ 
+@keyframes css{ 
     0%  { 
         width:0px;
     } 100%{ 
         width:90%;
     } 
  }
-@keyframes fire-rate { 
+@keyframes javascript { 
+    0%  { 
+        width:0px;
+    } 
+    100%{ 
+        width:65%;
+    }  
+}
+
+@keyframes java { 
     0%  { 
         width:0px;
     } 
