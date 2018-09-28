@@ -1,7 +1,7 @@
 .container{
 
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows:1fr 1fr 1fr;
+    grid-template-rows:1fr 1fr 200px;
     grid-template-areas:
 
     "header header header"
@@ -12,19 +12,22 @@
 
 
 .header{
-
+grid-area: header;
 }
 
 
 .content{
-
+grid-area: content;
 }
 
 
 .footer{
-
+grid-area: footer;
 }
 
+h2{
+    text-align: center;
+}
 
 #skill { 
 	list-style: none;
