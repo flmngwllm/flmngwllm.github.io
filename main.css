@@ -1,6 +1,10 @@
 body{
+background-image: url("Images/portback.png");
+background-size: cover;
+
 
 }
+
 
 
 .container{
@@ -72,9 +76,7 @@ h2{
 #skill li { 
 	margin-bottom:50px; 
 	background:black;
-	background-image: linear-gradient(top, #e1ddd9, #e9e5e2);  
 	height:20px; 
-	 
 	box-shadow: 0 1px 0px black, 0 1px 0 #fcfcfc;	  
 }
 
