@@ -16,21 +16,26 @@ body{
 
 }
 
+nav a{
+    text-decoration: none;
+    color:white; 
+    
+}
 
 
 
-.header ul{
+.header ul {
 grid-area: header;
 display: flex;
 justify-content:space-evenly;
 list-style: none;
 background-color: #292c33;
 color:white;
-
-
-
+height: 30px;
+padding-top: 10px;
 }
  
+
 
 
 .content{
@@ -42,6 +47,12 @@ grid-area: content;
 
 grid-area: footer;
 background-color: #292c33;
+color: white;
+text-align: center;
+}
+
+a{
+    text-decoration: none;
 }
 
 h2{
@@ -82,29 +93,29 @@ h2{
 .html {
 	width:88%; 
 	animation: html 2s ease-out;
-	background-color: #f674a4;
-	background-image: linear-gradient(top, #f674a4, #e06995);
+	background-color: gray;
+	
 }
 
 .css {
 	width:85%;
 	animation: css 2s ease-out;
-	background-color: lime;
-	background-image: linear-gradient(top, #f0bb4b, #d9aa44);
+	background-color: blue;
+	
 }
 
 .javascript {
 	width:65%;
 	animation: javascript 2s ease-out;
 	background-color: indigo;
-	background-image: linear-gradient(top, #a1ce5b, #91ba52);
+	
 }
 
 .java {
 	width:60%; 
 	animation: java 2s ease-out;
-	background-color: #f674a4;
-	background-image: linear-gradient(top, #f674a4, #e06995);
+	background-color: red;
+	
 }
 
 
@@ -145,6 +156,7 @@ h2{
 
 .git{
     display: flex;
-    align-content: center;
+    justify-content: center;
+    
 }
 
