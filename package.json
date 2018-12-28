@@ -1,0 +1,22 @@
+{
+  "name": "flmngwllm.github.io",
+  "version": "1.0.0",
+  "description": "portfolio",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass -w scss/ -o dist/css/ --recursive"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/flmngwllm/flmngwllm.github.io.git"
+  },
+  "author": "William Fleming",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/flmngwllm/flmngwllm.github.io/issues"
+  },
+  "homepage": "https://github.com/flmngwllm/flmngwllm.github.io#readme",
+  "dependencies": {
+    "node-sass": "^4.11.0"
+  }
+}
