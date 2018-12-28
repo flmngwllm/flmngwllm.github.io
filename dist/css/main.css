@@ -27,7 +27,7 @@ header {
   width: 100%; }
 
 .text-secondary {
-  color: blue; }
+  color: #d45; }
 
 main {
   padding: 4rem;
@@ -37,4 +37,9 @@ main {
     main .icons a {
       padding: 0.4rem; }
       main .icons a:hover {
-        color: blue; }
+        color: #d45;
+        transition: all 1.5s ease-out; }
+  main#home {
+    overflow: hidden; }
+    main#home h1 {
+      margin-top: 20vh; }

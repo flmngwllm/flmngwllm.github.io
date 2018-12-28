@@ -1,5 +1,9 @@
 $primaty-color: #444;
-$secondary-color: blue;
+$secondary-color: #d45;
+
+@mixin easeOut{
+    transition: all 1.5s ease-out;
+}
 
 * {
     box-sizing: border-box;
@@ -59,9 +63,16 @@ main {
 
             &:hover {
                 color: $secondary-color;
+                @include easeOut();
             }
         }
     }
+
+    &#home {
+        //no scroll bar on home page remove later
+        overflow: hidden;
+        h1 {
+            margin-top: 20vh;
+    }
 }
-
-
+}
