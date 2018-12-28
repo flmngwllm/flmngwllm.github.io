@@ -1,6 +1,25 @@
 $primaty-color: #444;
 
+* {
+    box-sizing: border-box;
+}
+
 body {
     background: $primaty-color;
     color: #fff;
+    height: 100%;
+    margin: 0;
+    line-height: 1.5;
 }
+
+//Headings
+h1, h2, h3 {
+    margin: 0;
+
+    &.lg-heading {
+        font-size: 6rem;
+    }
+
+}
+
+
