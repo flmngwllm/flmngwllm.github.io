@@ -8,7 +8,7 @@
 
 body {
     @include background;
-    background: $primaty-color;
+    background: $primary-color;
     color: #fff;
     height: 100%;
     margin: 0;
@@ -26,7 +26,7 @@ h1, h2, h3 {
     &.sm-heading{
         margin-bottom: 2rem;
         padding: 0.2rem 1rem;
-        background: rgba(lighten($primaty-color,2), 0.5);
+        background: rgba(lighten($primary-color,2), 0.5);
     }
 
 }
