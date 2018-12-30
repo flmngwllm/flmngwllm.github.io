@@ -140,6 +140,34 @@ main {
 }
 
 
+//Buttons styles
+
+.btn {
+    display: inline-block;
+    padding: 0.5rem;
+    border: 0;
+    margin-bottom: 0.3rem;
+    &:hover {
+        background: $secondary-color;
+        color: set-text-color($secondary-color);
+    }
+}
+
+//extending
+
+.btn-dark{
+    @extend .btn;
+    background: darken($primary-color,50);
+    color:#fff;
+}
+
+.btn-light{
+    @extend .btn;
+    background: darken($primary-color,50);
+    color:#333;
+}
+
+
 #main-footer{
     text-align: center;
     padding:  1rem;
