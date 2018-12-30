@@ -179,7 +179,7 @@ main {
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 20px; }
   .projects img {
-    width: 100;
+    width: 100%;
     border: #fff solid; }
     .projects img:hover {
       opacity: 0.5;
@@ -187,8 +187,8 @@ main {
       transition: all 1.5s ease-out; }
 
 .btn, .btn-dark, .btn-light {
-  display: inline-block;
-  padding: 0.5rem;
+  display: block;
+  padding: 0.5rem 1rem;
   border: 0;
   margin-bottom: 0.3rem; }
   .btn:hover, .btn-dark:hover, .btn-light:hover {
