@@ -3,8 +3,10 @@
   "version": "1.0.0",
   "description": "portfolio",
   "main": "index.js",
+
   "scripts": {
-    "sass": "node-sass -w scss/ -o dist/css/ --recursive"
+    "sass": "node-sass -w scss/ -o dist/css/ --recursive",
+    "deploy": "gh-pages -d dist"
   },
   "repository": {
     "type": "git",
@@ -15,8 +17,9 @@
   "bugs": {
     "url": "https://github.com/flmngwllm/flmngwllm.github.io/issues"
   },
-  "homepage": "https://github.com/flmngwllm/flmngwllm.github.io#readme",
+  "homepage": "https://flmngwllm.github.io/flmngwllm.github.io#readme",
   "dependencies": {
+    "gh-pages": "^2.0.1",
     "node-sass": "^4.11.0"
   }
 }
