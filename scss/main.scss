@@ -119,6 +119,27 @@ main {
     
 }
 
+
+//Projects
+
+.projects {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 20px;
+
+    img{
+        width: 100;
+        border: #fff solid;
+
+        &:hover{
+            opacity: 0.5;
+            border-color: $secondary-color;
+            @include easeOut;
+        }
+    }
+}
+
+
 #main-footer{
     text-align: center;
     padding:  1rem;
