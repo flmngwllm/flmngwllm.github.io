@@ -88,9 +88,10 @@ main {
     .bio-image{
         grid-area: bioimage;
         margin: auto;
-        border-radius: 50%;
-        border: white 3px solid;
+        border-radius: 7%;
+        border:$secondary-color 3px solid;
         width: 100%;
+        
         
        
     }
@@ -117,7 +118,7 @@ main {
     .job{
         background: lighten($primary-color, 5);
         padding: 0.5rem;
-        border-bottom: white 5px solid;
+        border-bottom: $secondary-color 5px solid;
     }
     
    
@@ -134,7 +135,7 @@ main {
     img{
         width: 100%;
         
-        border: #fff solid;
+        border: blue solid;
 
         &:hover{
             opacity: 0.5;

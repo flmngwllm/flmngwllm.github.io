@@ -22,7 +22,7 @@
         .btn-line{
             //Line 1 - ROtate
             &:nth-child(1) {
-                background: red;
+                background: #FFF;
                 transform: rotate(45deg) translate(5px, 5px)
             }
 
@@ -92,7 +92,7 @@
             height: 250px;
             background: url();
             border-radius: 50%;
-            border: solid 3px $secondary-color;
+            border: solid 3px white;
         }
     }
         .nav-item{
@@ -104,7 +104,7 @@
                 transform: translate3d(0,0,0);
             }
             &.current > a {
-                color: $secondary-color;
+                color: white;
             }
         }
 

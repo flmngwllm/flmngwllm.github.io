@@ -14,7 +14,7 @@
   .menu-btn.close {
     transform: rotate(180deg); }
     .menu-btn.close .btn-line:nth-child(1) {
-      background: red;
+      background: #FFF;
       transform: rotate(45deg) translate(5px, 5px); }
     .menu-btn.close .btn-line:nth-child(2) {
       opacity: 0; }
@@ -59,14 +59,14 @@
       height: 250px;
       background: url();
       border-radius: 50%;
-      border: solid 3px #d45; }
+      border: solid 3px white; }
   .menu .nav-item {
     transform: translate3d(600px, 0, 0);
     transition: all 1.5s ease-out; }
     .menu .nav-item.show {
       transform: translate3d(0, 0, 0); }
     .menu .nav-item.current > a {
-      color: #d45; }
+      color: white; }
   .menu .nav-link {
     display: inline-block;
     position: relative;
@@ -77,7 +77,7 @@
     text-decoration: none;
     transition: all 1.5s ease-out; }
     .menu .nav-link:hover {
-      color: #d45; }
+      color: blue; }
 
 .nav-item:nth-child(1) {
   transition-delay: 0.1s; }
@@ -133,7 +133,7 @@ header {
   width: 100%; }
 
 .text-secondary {
-  color: #d45; }
+  color: blue; }
 
 main {
   padding: 4rem;
@@ -143,7 +143,7 @@ main {
     main .icons a {
       padding: 0.4rem; }
       main .icons a:hover {
-        color: #d45;
+        color: blue;
         transition: all 1.5s ease-out; }
   main#home {
     overflow: hidden; }
@@ -158,8 +158,8 @@ main {
   .about-info .bio-image {
     grid-area: bioimage;
     margin: auto;
-    border-radius: 50%;
-    border: white 3px solid;
+    border-radius: 7%;
+    border: blue 3px solid;
     width: 100%; }
   .about-info .bio {
     grid-area: bio;
@@ -173,7 +173,7 @@ main {
   .about-info .job {
     background: #515151;
     padding: 0.5rem;
-    border-bottom: white 5px solid; }
+    border-bottom: blue 5px solid; }
 
 .projects {
   display: grid;
@@ -181,7 +181,7 @@ main {
   grid-gap: 20px; }
   .projects img {
     width: 100%;
-    border: #fff solid; }
+    border: blue solid; }
     .projects img:hover {
       opacity: 0.5;
       border-color: white;
@@ -193,7 +193,7 @@ main {
   border: 0;
   margin-bottom: 0.3rem; }
   .btn:hover, .btn-dark:hover, .btn-light:hover {
-    background: #d45;
+    background: blue;
     color: #000; }
 
 .btn-dark {
