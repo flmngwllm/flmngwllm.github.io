@@ -153,14 +153,14 @@ main {
 .about-info {
   display: grid;
   grid-gap: 30px;
-  grid-template-areas: 'bioima bio bio' 'job1 job2 job3';
+  grid-template-areas: 'bioimage bio bio' 'job1 job2 job3';
   grid-template-columns: repeat(3, 1fr); }
   .about-info .bio-image {
     grid-area: bioimage;
     margin: auto;
     border-radius: 50%;
     border: white 3px solid;
-    max-width: 100%; }
+    width: 100%; }
   .about-info .bio {
     grid-area: bio;
     font-size: 1.5rem; }
@@ -184,7 +184,7 @@ main {
     border: #fff solid; }
     .projects img:hover {
       opacity: 0.5;
-      border-color: #d45;
+      border-color: white;
       transition: all 1.5s ease-out; }
 
 .btn, .btn-dark, .btn-light {

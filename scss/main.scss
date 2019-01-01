@@ -80,7 +80,7 @@ main {
     display: grid;
     grid-gap: 30px;
     grid-template-areas:
-    'bioima bio bio'
+    'bioimage bio bio'
     'job1 job2 job3';
     grid-template-columns: repeat(3, 1fr); 
 
@@ -90,7 +90,7 @@ main {
         margin: auto;
         border-radius: 50%;
         border: white 3px solid;
-        max-width: 100%;
+        width: 100%;
         
        
     }
@@ -121,7 +121,6 @@ main {
     }
     
    
-    
 }
 
 
@@ -139,7 +138,7 @@ main {
 
         &:hover{
             opacity: 0.5;
-            border-color: $secondary-color;
+            border-color: white;
             @include easeOut;
         }
     }
