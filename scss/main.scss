@@ -8,12 +8,39 @@
 
 body {
     @include background;
-    background: $primary-color;
     color: set-text-color($primary-color);
     height: 100%;
     margin: 0;
     line-height: 1.5;
 }
+
+.stars{
+    position: absolute;
+    z-index: -1;
+}
+
+.sun{
+    position: absolute;
+    z-index: -2;
+}
+
+
+// sun image with rotating keyframe
+.sun-img{
+    z-index: -1;
+    width: 300px;
+    
+    animation: sun-img 30s linear infinite both;
+}
+
+@keyframes sun-img {
+    0% {
+              transform: rotate(0);
+    }
+    100% {
+              transform: rotate(360deg);
+    }
+  }
 
 //Headings
 h1, h2, h3 {
