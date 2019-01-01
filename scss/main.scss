@@ -80,7 +80,7 @@ main {
     display: grid;
     grid-gap: 30px;
     grid-template-areas:
-    'bioimage bio bio'
+    'bioima bio bio'
     'job1 job2 job3';
     grid-template-columns: repeat(3, 1fr); 
 
@@ -89,8 +89,13 @@ main {
         grid-area: bioimage;
         margin: auto;
         border-radius: 50%;
-        border: $secondary-color 3px solid;
+        border: white 3px solid;
+        max-width: 100%;
+        
+       
     }
+
+    
     
     .bio{
         grid-area: bio;
@@ -112,7 +117,7 @@ main {
     .job{
         background: lighten($primary-color, 5);
         padding: 0.5rem;
-        border-bottom: $secondary-color 5px solid;
+        border-bottom: white 5px solid;
     }
     
    
