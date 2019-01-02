@@ -22,14 +22,16 @@ body {
 .sun{
     position: absolute;
     z-index: -2;
+    
 }
 
 
 // sun image with rotating keyframe
 .sun-img{
     z-index: -1;
-    width: 300px;
-    
+    width: 800px;
+    margin-top: -350px;
+    margin-left: -350px;
     animation: sun-img 30s linear infinite both;
 }
 
