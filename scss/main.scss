@@ -14,10 +14,60 @@ body {
     line-height: 1.5;
 }
 
-.stars{
+.stars {
+    position: absolute;   
+    z-index: -1;
+    
+    
+   }
+
+
+
+.cloud {
+   position: absolute;   
+   z-index: -1;
+   
+  }
+
+
+  .rcloud {
+      width:800px;
+      margin-top: -120px;
+      z-index: -1;
+      position: absolute;
+      margin-top: -120px;
+
+  }
+
+  .rcloud2 {
+    width:800px;
     position: absolute;
     z-index: -1;
+    margin-left:400px;
+    margin-top: -140px;
+
 }
+
+
+.rcloud3 {
+    width:800px;
+    position: absolute;
+    z-index: -1;
+    margin-left:700px;
+    margin-top: -200px;
+}
+
+.rcloud4 {
+    width:800px;
+    position: absolute;
+    z-index: -1;
+    margin-left:100px;
+    margin-top: -170px;
+}
+
+
+
+
 
 .sun{
     position: absolute;
