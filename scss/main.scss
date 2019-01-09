@@ -221,7 +221,7 @@ main {
     
     .job{
         background: lighten($primary-color, 5);
-        padding: 0.5rem;
+        padding: .5rem;
         border-bottom: $secondary-color 5px solid;
     }
     
@@ -272,8 +272,8 @@ main {
 
         &:hover{
             padding: 0.5rem 1.5rem;
-            background: $secondary-color;
-            color: set-text-color($secondary-color)
+            background: yellow;
+            color: set-text-color($secondary-color);
         }
     }
 }
