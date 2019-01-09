@@ -155,6 +155,7 @@ main {
 }
 }
 
+
 .about-info{
     display: grid;
     grid-gap: 30px;
@@ -200,7 +201,10 @@ main {
         border-bottom: $secondary-color 5px solid;
     }
     
-   
+    .logo{
+        height:75px;
+        width: 75px;
+    }
 }
 
 

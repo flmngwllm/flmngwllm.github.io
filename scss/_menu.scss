@@ -33,7 +33,7 @@
 
             //Line 3 - Rotate
             &:nth-child(3) {
-                background: red;
+                background: #FFF;
                 transform: rotate(-45deg) translate(7px, -6px)
 
             }
@@ -46,7 +46,7 @@
     position: fixed;
     top:0;
     width: 100%;
-    opacity: 0.9;
+    
     visibility: hidden;
 
     &.show {
@@ -87,10 +87,14 @@
             //slide in fom top
             transform: translate3d(0,0,0)
         }
+
+
         .portrait {
             width: 250px;
             height: 250px;
-            background: url();
+            background: url('/Images/Will2.jpg') no-repeat;;
+            background-size: cover;
+            background-position-x: -35px;
             border-radius: 50%;
             border: solid 3px white;
         }
