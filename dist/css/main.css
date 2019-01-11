@@ -152,9 +152,10 @@ body {
 
 .sun {
   position: absolute;
-  z-index: -2; }
+  z-index: -1; }
 
 .sun-img {
+  position: absolute;
   z-index: -1;
   width: 800px;
   margin-top: -350px;
@@ -247,7 +248,8 @@ main {
   grid-gap: 20px; }
   .projects img {
     width: 100%;
-    border: blue solid; }
+    height: 200px;
+    border: #444 solid; }
     .projects img:hover {
       opacity: 0.5;
       border-color: white;
@@ -289,10 +291,7 @@ main {
 
 #main-footer {
   text-align: center;
-  padding: 1rem;
-  background: #2b2b2b;
-  color: #fff;
-  height: 60px; }
+  padding: 1rem; }
 
 @media screen and (min-width: 1171px) {
   .projects {

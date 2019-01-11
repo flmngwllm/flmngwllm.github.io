@@ -14,6 +14,7 @@ body {
     line-height: 1.5;
 }
 
+//canvas background with just stars
 .stars {
     position: absolute;   
     z-index: -1;
@@ -22,7 +23,7 @@ body {
    }
 
 
-
+// canvas background with rain
 .cloud {
    position: absolute;   
    z-index: -1;
@@ -69,15 +70,17 @@ body {
 
 
 
+// canvas morning background
 .sun{
     position: absolute;
-    z-index: -2;
+    z-index: -1;
     
 }
 
 
-// sun image with rotating keyframe
+// // sun image with rotating keyframe
 .sun-img{
+    position: absolute;
     z-index: -1;
     width: 800px;
     margin-top: -350px;
@@ -241,8 +244,9 @@ main {
 
     img{
         width: 100%;
+        height: 200px;
         
-        border: blue solid;
+        border: #444 solid;
 
         &:hover{
             opacity: 0.5;
@@ -308,9 +312,9 @@ main {
 #main-footer{
     text-align: center;
     padding:  1rem;
-    background: darken($primary-color, 10);
-    color: set-text-color($primary-color);
-    height: 60px;
+    // background: darken($primary-color, 10);
+    // color: set-text-color($primary-color);
+    // height: 60px;
 }
 
 @import 'mobile';
