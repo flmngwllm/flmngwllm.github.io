@@ -12,30 +12,7 @@ var canvas = document.querySelector('canvas')
 
 
 
-// function Rain() {
-//     this.x = Math.random()* window.innerWidth
-//     this.y = Math.random()* 200
-//     this.dx = 60
-//     this.dy = 60
 
-
-//     this.update = function(){
-//         if (this.y  + this.dy >= canvas.height ) {
-//             this.y = Math.random()* 200
-
-//         }
-//         this.y += this.dy
-//         this.draw()
-
-//     }
-// this.draw = function(){
-//     c.beginPath()
-//     c.moveTo(this.x, this.y)
-//     c.lineTo(this.x, this.y + this.dx +20)
-//     c.strokeStyle = "green"
-//     c.stroke();
-// }
-// }
 
 
 

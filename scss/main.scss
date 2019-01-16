@@ -67,7 +67,12 @@ body {
 }
 
 
-
+// canvas background with just clouds
+.plain {
+    position: absolute;   
+    z-index: -1;
+    
+   }
 
 
 // canvas morning background
