@@ -16,20 +16,6 @@ var canvas = document.querySelector('canvas')
   Design
 */
 
-// function Moon(){
-
-// this.draw = function(){
-// c.beginPath();
-// c.arc(100, 75, 30, 0, Math.PI* 2, false)
-// c.strokeStyle = "blue";
-// c.stroke()
-// }
-
-// }
-
-
-
-
 // stars in the background
     function BackStar() {
         this.x = Math.random() * canvas.width;
@@ -105,11 +91,6 @@ var canvas = document.querySelector('canvas')
                 rain.splice(i, 1);
             }
         }
-        
-        // c.beginPath();
-        // c.arc(200, 75, 200, 0, Math.PI* 2, false)
-        // c.fillStyle = "#f5f3ce";
-        // c.fill()
 
     }
 

@@ -16,17 +16,6 @@ var canvas = document.querySelector('canvas')
   Design
 */
 
-// function Moon(){
-
-// this.draw = function(){
-// c.beginPath();
-// c.arc(100, 75, 30, 0, Math.PI* 2, false)
-// c.strokeStyle = "blue";
-// c.stroke()
-// }
-
-// }
-
 
 //function for rain
 function Rain() {
@@ -104,7 +93,6 @@ this.draw = function(){
 
 // *  Implementation
 
-
     
     var groundHeight = canvas.height  * 0.15;
     //coordinates for color gradient
@@ -155,11 +143,7 @@ this.draw = function(){
                 rain.splice(i, 1);
             }
         }
-        
-        // c.beginPath();
-        // c.arc(200, 75, 200, 0, Math.PI* 2, false)
-        // c.fillStyle = "#f5f3ce";
-        // c.fill()
+    
 
     }
 
