@@ -170,6 +170,47 @@ main {
 }
 }
 
+//about page starts here
+
+.moon-glow {
+    z-index: -1;
+    border-radius: 50%;
+    border: none;
+    box-shadow: -2px 0 100px var(--ivory-moon);
+    height: 200px;
+    width: 200px;
+    margin: 100px auto, 100px;
+    position: fixed;
+    animation:
+      glow 40s linear both;
+      
+  }
+  
+  .moon {
+    z-index: -1;
+    background-color:rgb(255,255,240);;
+    border-radius: 50%;
+    border: none;
+    height: 100%;
+    width: 100%;
+    transform: rotate(20deg);
+      
+  }
+  
+
+  @keyframes glow {
+    0%{
+       box-shadow: -2px 0 100px rgb(255,255,240);
+    }
+    
+    50%{
+       box-shadow: -2px 0 100px rgb(255,255,240);
+    }
+    
+    100%{
+       box-shadow: -2px 0 100px rgb(255,255,240);
+    }
+  }
 
 .about-info{
     display: grid;

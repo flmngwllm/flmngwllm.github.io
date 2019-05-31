@@ -16,16 +16,16 @@ var canvas = document.querySelector('canvas')
   Design
 */
 
-function Moon(){
+// function Moon(){
 
-this.draw = function(){
-c.beginPath();
-c.arc(100, 75, 30, 0, Math.PI* 2, false)
-c.strokeStyle = "blue";
-c.stroke()
-}
+// this.draw = function(){
+// c.beginPath();
+// c.arc(100, 75, 30, 0, Math.PI* 2, false)
+// c.strokeStyle = "blue";
+// c.stroke()
+// }
 
-}
+// }
 
 
 //function for rain
@@ -156,10 +156,10 @@ this.draw = function(){
             }
         }
         
-        c.beginPath();
-        c.arc(200, 75, 200, 0, Math.PI* 2, false)
-        c.fillStyle = "#f5f3ce";
-        c.fill()
+        // c.beginPath();
+        // c.arc(200, 75, 200, 0, Math.PI* 2, false)
+        // c.fillStyle = "#f5f3ce";
+        // c.fill()
 
     }
 
